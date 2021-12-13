@@ -176,7 +176,7 @@ function  qs_bootstrap_pip() {
             curl --silent \
              --show-error \
             --retry 5 \
-            https://bootstrap.pypa.io/pip/get-pip.py | sudo $PYTHON_EXECUTEABLE
+            https://bootstrap.pypa.io/pip/2.7/get-pip.py | sudo $PYTHON_EXECUTEABLE
         fi
     else
         echo $PYTHON_EXECUTEABLE
